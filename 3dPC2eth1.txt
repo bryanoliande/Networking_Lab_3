@@ -1,0 +1,247 @@
+No.     Time           Source                Destination           Protocol Length Info
+      1 0.000000000    c8:01:21:6c:00:00     c8:01:21:6c:00:00     LOOP     60     Reply
+
+Frame 1: 60 bytes on wire (480 bits), 60 bytes captured (480 bits) on interface 0
+Ethernet II, Src: c8:01:21:6c:00:00 (c8:01:21:6c:00:00), Dst: c8:01:21:6c:00:00 (c8:01:21:6c:00:00)
+Configuration Test Protocol (loopback)
+Data (40 bytes)
+
+0000  00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00   ................
+0010  00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00   ................
+0020  00 00 00 00 00 00 00 00                           ........
+
+No.     Time           Source                Destination           Protocol Length Info
+      2 18.704520000   c8:01:21:6c:00:00     c8:01:21:6c:00:00     LOOP     60     Reply
+
+Frame 2: 60 bytes on wire (480 bits), 60 bytes captured (480 bits) on interface 0
+Ethernet II, Src: c8:01:21:6c:00:00 (c8:01:21:6c:00:00), Dst: c8:01:21:6c:00:00 (c8:01:21:6c:00:00)
+Configuration Test Protocol (loopback)
+Data (40 bytes)
+
+0000  00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00   ................
+0010  00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00   ................
+0020  00 00 00 00 00 00 00 00                           ........
+
+No.     Time           Source                Destination           Protocol Length Info
+      3 37.643308000   c8:01:21:6c:00:00     c8:01:21:6c:00:00     LOOP     60     Reply
+
+Frame 3: 60 bytes on wire (480 bits), 60 bytes captured (480 bits) on interface 0
+Ethernet II, Src: c8:01:21:6c:00:00 (c8:01:21:6c:00:00), Dst: c8:01:21:6c:00:00 (c8:01:21:6c:00:00)
+Configuration Test Protocol (loopback)
+Data (40 bytes)
+
+0000  00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00   ................
+0010  00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00   ................
+0020  00 00 00 00 00 00 00 00                           ........
+
+No.     Time           Source                Destination           Protocol Length Info
+      4 42.774637000   c8:01:21:6c:00:00     CDP/VTP/DTP/PAgP/UDLD CDP      366    Device ID: R1  Port ID: FastEthernet0/0  
+
+Frame 4: 366 bytes on wire (2928 bits), 366 bytes captured (2928 bits) on interface 0
+IEEE 802.3 Ethernet 
+Logical-Link Control
+Cisco Discovery Protocol
+
+No.     Time           Source                Destination           Protocol Length Info
+      5 53.150259000   10.0.1.11             10.0.10.110           ICMP     98     Echo (ping) request  id=0x03db, seq=1/256, ttl=63 (no response found!)
+
+Frame 5: 98 bytes on wire (784 bits), 98 bytes captured (784 bits) on interface 0
+Ethernet II, Src: CadmusCo_39:52:4a (08:00:27:39:52:4a), Dst: c8:01:21:6c:00:00 (c8:01:21:6c:00:00)
+Internet Protocol Version 4, Src: 10.0.1.11 (10.0.1.11), Dst: 10.0.10.110 (10.0.10.110)
+Internet Control Message Protocol
+
+No.     Time           Source                Destination           Protocol Length Info
+      6 53.169796000   c8:01:21:6c:00:00     Broadcast             ARP      60     Who has 10.0.2.22?  Tell 10.0.2.1
+
+Frame 6: 60 bytes on wire (480 bits), 60 bytes captured (480 bits) on interface 0
+Ethernet II, Src: c8:01:21:6c:00:00 (c8:01:21:6c:00:00), Dst: Broadcast (ff:ff:ff:ff:ff:ff)
+Address Resolution Protocol (request)
+
+No.     Time           Source                Destination           Protocol Length Info
+      7 53.170773000   CadmusCo_39:52:4a     c8:01:21:6c:00:00     ARP      60     10.0.2.22 is at 08:00:27:39:52:4a
+
+Frame 7: 60 bytes on wire (480 bits), 60 bytes captured (480 bits) on interface 0
+Ethernet II, Src: CadmusCo_39:52:4a (08:00:27:39:52:4a), Dst: c8:01:21:6c:00:00 (c8:01:21:6c:00:00)
+Address Resolution Protocol (reply)
+
+No.     Time           Source                Destination           Protocol Length Info
+      8 54.150633000   10.0.1.11             10.0.10.110           ICMP     98     Echo (ping) request  id=0x03db, seq=2/512, ttl=63 (no response found!)
+
+Frame 8: 98 bytes on wire (784 bits), 98 bytes captured (784 bits) on interface 0
+Ethernet II, Src: CadmusCo_39:52:4a (08:00:27:39:52:4a), Dst: c8:01:21:6c:00:00 (c8:01:21:6c:00:00)
+Internet Protocol Version 4, Src: 10.0.1.11 (10.0.1.11), Dst: 10.0.10.110 (10.0.10.110)
+Internet Control Message Protocol
+
+No.     Time           Source                Destination           Protocol Length Info
+      9 54.151609000   10.0.2.1              10.0.1.11             ICMP     70     Destination unreachable (Host unreachable)
+
+Frame 9: 70 bytes on wire (560 bits), 70 bytes captured (560 bits) on interface 0
+Ethernet II, Src: c8:01:21:6c:00:00 (c8:01:21:6c:00:00), Dst: CadmusCo_39:52:4a (08:00:27:39:52:4a)
+Internet Protocol Version 4, Src: 10.0.2.1 (10.0.2.1), Dst: 10.0.1.11 (10.0.1.11)
+Internet Control Message Protocol
+
+No.     Time           Source                Destination           Protocol Length Info
+     10 55.153664000   10.0.1.11             10.0.10.110           ICMP     98     Echo (ping) request  id=0x03db, seq=3/768, ttl=63 (no response found!)
+
+Frame 10: 98 bytes on wire (784 bits), 98 bytes captured (784 bits) on interface 0
+Ethernet II, Src: CadmusCo_39:52:4a (08:00:27:39:52:4a), Dst: c8:01:21:6c:00:00 (c8:01:21:6c:00:00)
+Internet Protocol Version 4, Src: 10.0.1.11 (10.0.1.11), Dst: 10.0.10.110 (10.0.10.110)
+Internet Control Message Protocol
+
+No.     Time           Source                Destination           Protocol Length Info
+     11 55.162441000   10.0.2.1              10.0.1.11             ICMP     70     Destination unreachable (Host unreachable)
+
+Frame 11: 70 bytes on wire (560 bits), 70 bytes captured (560 bits) on interface 0
+Ethernet II, Src: c8:01:21:6c:00:00 (c8:01:21:6c:00:00), Dst: CadmusCo_39:52:4a (08:00:27:39:52:4a)
+Internet Protocol Version 4, Src: 10.0.2.1 (10.0.2.1), Dst: 10.0.1.11 (10.0.1.11)
+Internet Control Message Protocol
+
+No.     Time           Source                Destination           Protocol Length Info
+     12 56.019578000   c8:01:21:6c:00:00     c8:01:21:6c:00:00     LOOP     60     Reply
+
+Frame 12: 60 bytes on wire (480 bits), 60 bytes captured (480 bits) on interface 0
+Ethernet II, Src: c8:01:21:6c:00:00 (c8:01:21:6c:00:00), Dst: c8:01:21:6c:00:00 (c8:01:21:6c:00:00)
+Configuration Test Protocol (loopback)
+Data (40 bytes)
+
+0000  00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00   ................
+0010  00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00   ................
+0020  00 00 00 00 00 00 00 00                           ........
+
+No.     Time           Source                Destination           Protocol Length Info
+     13 56.156225000   10.0.1.11             10.0.10.110           ICMP     98     Echo (ping) request  id=0x03db, seq=4/1024, ttl=63 (no response found!)
+
+Frame 13: 98 bytes on wire (784 bits), 98 bytes captured (784 bits) on interface 0
+Ethernet II, Src: CadmusCo_39:52:4a (08:00:27:39:52:4a), Dst: c8:01:21:6c:00:00 (c8:01:21:6c:00:00)
+Internet Protocol Version 4, Src: 10.0.1.11 (10.0.1.11), Dst: 10.0.10.110 (10.0.10.110)
+Internet Control Message Protocol
+
+No.     Time           Source                Destination           Protocol Length Info
+     14 56.158230000   10.0.2.1              10.0.1.11             ICMP     70     Destination unreachable (Host unreachable)
+
+Frame 14: 70 bytes on wire (560 bits), 70 bytes captured (560 bits) on interface 0
+Ethernet II, Src: c8:01:21:6c:00:00 (c8:01:21:6c:00:00), Dst: CadmusCo_39:52:4a (08:00:27:39:52:4a)
+Internet Protocol Version 4, Src: 10.0.2.1 (10.0.2.1), Dst: 10.0.1.11 (10.0.1.11)
+Internet Control Message Protocol
+
+No.     Time           Source                Destination           Protocol Length Info
+     15 57.158556000   10.0.1.11             10.0.10.110           ICMP     98     Echo (ping) request  id=0x03db, seq=5/1280, ttl=63 (no response found!)
+
+Frame 15: 98 bytes on wire (784 bits), 98 bytes captured (784 bits) on interface 0
+Ethernet II, Src: CadmusCo_39:52:4a (08:00:27:39:52:4a), Dst: c8:01:21:6c:00:00 (c8:01:21:6c:00:00)
+Internet Protocol Version 4, Src: 10.0.1.11 (10.0.1.11), Dst: 10.0.10.110 (10.0.10.110)
+Internet Control Message Protocol
+
+No.     Time           Source                Destination           Protocol Length Info
+     16 57.162519000   10.0.2.1              10.0.1.11             ICMP     70     Destination unreachable (Host unreachable)
+
+Frame 16: 70 bytes on wire (560 bits), 70 bytes captured (560 bits) on interface 0
+Ethernet II, Src: c8:01:21:6c:00:00 (c8:01:21:6c:00:00), Dst: CadmusCo_39:52:4a (08:00:27:39:52:4a)
+Internet Protocol Version 4, Src: 10.0.2.1 (10.0.2.1), Dst: 10.0.1.11 (10.0.1.11)
+Internet Control Message Protocol
+
+No.     Time           Source                Destination           Protocol Length Info
+     17 59.157536000   CadmusCo_39:52:4a     c8:01:21:6c:00:00     ARP      60     Who has 10.0.2.1?  Tell 10.0.2.22
+
+Frame 17: 60 bytes on wire (480 bits), 60 bytes captured (480 bits) on interface 0
+Ethernet II, Src: CadmusCo_39:52:4a (08:00:27:39:52:4a), Dst: c8:01:21:6c:00:00 (c8:01:21:6c:00:00)
+Address Resolution Protocol (request)
+
+No.     Time           Source                Destination           Protocol Length Info
+     18 59.164371000   c8:01:21:6c:00:00     CadmusCo_39:52:4a     ARP      60     10.0.2.1 is at c8:01:21:6c:00:00
+
+Frame 18: 60 bytes on wire (480 bits), 60 bytes captured (480 bits) on interface 0
+Ethernet II, Src: c8:01:21:6c:00:00 (c8:01:21:6c:00:00), Dst: CadmusCo_39:52:4a (08:00:27:39:52:4a)
+Address Resolution Protocol (reply)
+
+No.     Time           Source                Destination           Protocol Length Info
+     19 74.627065000   c8:01:21:6c:00:00     c8:01:21:6c:00:00     LOOP     60     Reply
+
+Frame 19: 60 bytes on wire (480 bits), 60 bytes captured (480 bits) on interface 0
+Ethernet II, Src: c8:01:21:6c:00:00 (c8:01:21:6c:00:00), Dst: c8:01:21:6c:00:00 (c8:01:21:6c:00:00)
+Configuration Test Protocol (loopback)
+Data (40 bytes)
+
+0000  00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00   ................
+0010  00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00   ................
+0020  00 00 00 00 00 00 00 00                           ........
+
+No.     Time           Source                Destination           Protocol Length Info
+     20 93.325788000   c8:01:21:6c:00:00     c8:01:21:6c:00:00     LOOP     60     Reply
+
+Frame 20: 60 bytes on wire (480 bits), 60 bytes captured (480 bits) on interface 0
+Ethernet II, Src: c8:01:21:6c:00:00 (c8:01:21:6c:00:00), Dst: c8:01:21:6c:00:00 (c8:01:21:6c:00:00)
+Configuration Test Protocol (loopback)
+Data (40 bytes)
+
+0000  00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00   ................
+0010  00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00   ................
+0020  00 00 00 00 00 00 00 00                           ........
+
+No.     Time           Source                Destination           Protocol Length Info
+     21 112.047214000  c8:01:21:6c:00:00     c8:01:21:6c:00:00     LOOP     60     Reply
+
+Frame 21: 60 bytes on wire (480 bits), 60 bytes captured (480 bits) on interface 0
+Ethernet II, Src: c8:01:21:6c:00:00 (c8:01:21:6c:00:00), Dst: c8:01:21:6c:00:00 (c8:01:21:6c:00:00)
+Configuration Test Protocol (loopback)
+Data (40 bytes)
+
+0000  00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00   ................
+0010  00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00   ................
+0020  00 00 00 00 00 00 00 00                           ........
+
+No.     Time           Source                Destination           Protocol Length Info
+     22 130.817512000  c8:01:21:6c:00:00     c8:01:21:6c:00:00     LOOP     60     Reply
+
+Frame 22: 60 bytes on wire (480 bits), 60 bytes captured (480 bits) on interface 0
+Ethernet II, Src: c8:01:21:6c:00:00 (c8:01:21:6c:00:00), Dst: c8:01:21:6c:00:00 (c8:01:21:6c:00:00)
+Configuration Test Protocol (loopback)
+Data (40 bytes)
+
+0000  00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00   ................
+0010  00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00   ................
+0020  00 00 00 00 00 00 00 00                           ........
+
+No.     Time           Source                Destination           Protocol Length Info
+     23 149.522610000  c8:01:21:6c:00:00     c8:01:21:6c:00:00     LOOP     60     Reply
+
+Frame 23: 60 bytes on wire (480 bits), 60 bytes captured (480 bits) on interface 0
+Ethernet II, Src: c8:01:21:6c:00:00 (c8:01:21:6c:00:00), Dst: c8:01:21:6c:00:00 (c8:01:21:6c:00:00)
+Configuration Test Protocol (loopback)
+Data (40 bytes)
+
+0000  00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00   ................
+0010  00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00   ................
+0020  00 00 00 00 00 00 00 00                           ........
+
+No.     Time           Source                Destination           Protocol Length Info
+     24 154.691078000  c8:01:21:6c:00:00     CDP/VTP/DTP/PAgP/UDLD CDP      366    Device ID: R1  Port ID: FastEthernet0/0  
+
+Frame 24: 366 bytes on wire (2928 bits), 366 bytes captured (2928 bits) on interface 0
+IEEE 802.3 Ethernet 
+Logical-Link Control
+Cisco Discovery Protocol
+
+No.     Time           Source                Destination           Protocol Length Info
+     25 168.190675000  c8:01:21:6c:00:00     c8:01:21:6c:00:00     LOOP     60     Reply
+
+Frame 25: 60 bytes on wire (480 bits), 60 bytes captured (480 bits) on interface 0
+Ethernet II, Src: c8:01:21:6c:00:00 (c8:01:21:6c:00:00), Dst: c8:01:21:6c:00:00 (c8:01:21:6c:00:00)
+Configuration Test Protocol (loopback)
+Data (40 bytes)
+
+0000  00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00   ................
+0010  00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00   ................
+0020  00 00 00 00 00 00 00 00                           ........
+
+No.     Time           Source                Destination           Protocol Length Info
+     26 186.770691000  c8:01:21:6c:00:00     c8:01:21:6c:00:00     LOOP     60     Reply
+
+Frame 26: 60 bytes on wire (480 bits), 60 bytes captured (480 bits) on interface 0
+Ethernet II, Src: c8:01:21:6c:00:00 (c8:01:21:6c:00:00), Dst: c8:01:21:6c:00:00 (c8:01:21:6c:00:00)
+Configuration Test Protocol (loopback)
+Data (40 bytes)
+
+0000  00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00   ................
+0010  00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00   ................
+0020  00 00 00 00 00 00 00 00                           ........

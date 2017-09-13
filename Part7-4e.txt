@@ -1,0 +1,75 @@
+No.     Time           Source                Destination           Protocol Length Info
+      7 85.245396000   CadmusCo_a4:1a:79     Broadcast             ARP      60     Who has 10.0.2.139?  Tell 10.0.2.137
+
+Frame 7: 60 bytes on wire (480 bits), 60 bytes captured (480 bits) on interface 0
+Ethernet II, Src: CadmusCo_a4:1a:79 (08:00:27:a4:1a:79), Dst: Broadcast (ff:ff:ff:ff:ff:ff)
+Address Resolution Protocol (request)
+
+No.     Time           Source                Destination           Protocol Length Info
+      8 85.246375000   CadmusCo_dc:29:f0     CadmusCo_a4:1a:79     ARP      60     10.0.2.139 is at 08:00:27:dc:29:f0
+
+Frame 8: 60 bytes on wire (480 bits), 60 bytes captured (480 bits) on interface 0
+Ethernet II, Src: CadmusCo_dc:29:f0 (08:00:27:dc:29:f0), Dst: CadmusCo_a4:1a:79 (08:00:27:a4:1a:79)
+Address Resolution Protocol (reply)
+
+No.     Time           Source                Destination           Protocol Length Info
+      9 85.246375000   10.0.2.137            10.0.2.139            ICMP     98     Echo (ping) request  id=0x03da, seq=1/256, ttl=64 (reply in 10)
+
+Frame 9: 98 bytes on wire (784 bits), 98 bytes captured (784 bits) on interface 0
+Ethernet II, Src: CadmusCo_a4:1a:79 (08:00:27:a4:1a:79), Dst: CadmusCo_dc:29:f0 (08:00:27:dc:29:f0)
+Internet Protocol Version 4, Src: 10.0.2.137 (10.0.2.137), Dst: 10.0.2.139 (10.0.2.139)
+Internet Control Message Protocol
+
+No.     Time           Source                Destination           Protocol Length Info
+     10 85.247353000   10.0.2.139            10.0.2.137            ICMP     98     Echo (ping) reply    id=0x03da, seq=1/256, ttl=64 (request in 9)
+
+Frame 10: 98 bytes on wire (784 bits), 98 bytes captured (784 bits) on interface 0
+Ethernet II, Src: CadmusCo_dc:29:f0 (08:00:27:dc:29:f0), Dst: CadmusCo_a4:1a:79 (08:00:27:a4:1a:79)
+Internet Protocol Version 4, Src: 10.0.2.139 (10.0.2.139), Dst: 10.0.2.137 (10.0.2.137)
+Internet Control Message Protocol
+
+No.     Time           Source                Destination           Protocol Length Info
+     11 86.247700000   10.0.2.137            10.0.2.139            ICMP     98     Echo (ping) request  id=0x03da, seq=2/512, ttl=64 (reply in 12)
+
+Frame 11: 98 bytes on wire (784 bits), 98 bytes captured (784 bits) on interface 0
+Ethernet II, Src: CadmusCo_a4:1a:79 (08:00:27:a4:1a:79), Dst: CadmusCo_dc:29:f0 (08:00:27:dc:29:f0)
+Internet Protocol Version 4, Src: 10.0.2.137 (10.0.2.137), Dst: 10.0.2.139 (10.0.2.139)
+Internet Control Message Protocol
+
+No.     Time           Source                Destination           Protocol Length Info
+     12 86.248635000   10.0.2.139            10.0.2.137            ICMP     98     Echo (ping) reply    id=0x03da, seq=2/512, ttl=64 (request in 11)
+
+Frame 12: 98 bytes on wire (784 bits), 98 bytes captured (784 bits) on interface 0
+Ethernet II, Src: CadmusCo_dc:29:f0 (08:00:27:dc:29:f0), Dst: CadmusCo_a4:1a:79 (08:00:27:a4:1a:79)
+Internet Protocol Version 4, Src: 10.0.2.139 (10.0.2.139), Dst: 10.0.2.137 (10.0.2.137)
+Internet Control Message Protocol
+
+No.     Time           Source                Destination           Protocol Length Info
+     13 87.249988000   10.0.2.137            10.0.2.139            ICMP     98     Echo (ping) request  id=0x03da, seq=3/768, ttl=64 (reply in 14)
+
+Frame 13: 98 bytes on wire (784 bits), 98 bytes captured (784 bits) on interface 0
+Ethernet II, Src: CadmusCo_a4:1a:79 (08:00:27:a4:1a:79), Dst: CadmusCo_dc:29:f0 (08:00:27:dc:29:f0)
+Internet Protocol Version 4, Src: 10.0.2.137 (10.0.2.137), Dst: 10.0.2.139 (10.0.2.139)
+Internet Control Message Protocol
+
+No.     Time           Source                Destination           Protocol Length Info
+     14 87.250915000   10.0.2.139            10.0.2.137            ICMP     98     Echo (ping) reply    id=0x03da, seq=3/768, ttl=64 (request in 13)
+
+Frame 14: 98 bytes on wire (784 bits), 98 bytes captured (784 bits) on interface 0
+Ethernet II, Src: CadmusCo_dc:29:f0 (08:00:27:dc:29:f0), Dst: CadmusCo_a4:1a:79 (08:00:27:a4:1a:79)
+Internet Protocol Version 4, Src: 10.0.2.139 (10.0.2.139), Dst: 10.0.2.137 (10.0.2.137)
+Internet Control Message Protocol
+
+No.     Time           Source                Destination           Protocol Length Info
+     15 90.260980000   CadmusCo_dc:29:f0     CadmusCo_a4:1a:79     ARP      60     Who has 10.0.2.137?  Tell 10.0.2.139
+
+Frame 15: 60 bytes on wire (480 bits), 60 bytes captured (480 bits) on interface 0
+Ethernet II, Src: CadmusCo_dc:29:f0 (08:00:27:dc:29:f0), Dst: CadmusCo_a4:1a:79 (08:00:27:a4:1a:79)
+Address Resolution Protocol (request)
+
+No.     Time           Source                Destination           Protocol Length Info
+     16 90.261431000   CadmusCo_a4:1a:79     CadmusCo_dc:29:f0     ARP      60     10.0.2.137 is at 08:00:27:a4:1a:79
+
+Frame 16: 60 bytes on wire (480 bits), 60 bytes captured (480 bits) on interface 0
+Ethernet II, Src: CadmusCo_a4:1a:79 (08:00:27:a4:1a:79), Dst: CadmusCo_dc:29:f0 (08:00:27:dc:29:f0)
+Address Resolution Protocol (reply)
